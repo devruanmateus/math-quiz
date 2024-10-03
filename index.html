@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <h1>Math Quiz</h1>
+    </header>
+    <main>
+        <div id="content-container">
+            <div id="container-start">
+                <button id="play-btn"><span class="material-symbols-outlined icon-play">play_arrow</span></button>
+            </div>
+            
+            <div id="game-container">
+                <div id="counter">
+                    <p>Acertos <span id="hits">X</span></p>
+                    <span class="material-symbols-outlined">compare_arrows</span>
+                    <p><span id="failures">X</span> Falhas</p>
+                </div>
+
+                <div id="game">
+                    <h2 id="question">Pergunta</h2>
+
+                    <p id="timer">Contador não iniciado <span id="seconds"></span></p>
+
+                    <div id="need-response">
+                        <label for="iattempt">Digite a resposta: </label>
+                        <input name="attempt" id="iattempt" type="number">
+                        <button id="send">Enviar</button>
+                    </div>
+
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Feito por Ruan Mateus</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

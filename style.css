@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7246E5;
+    color: #fff;
+    padding: 2px;
+}
+
+/* Posição e tamanho dos containeres principais */
+#content-container {
+    width: 80%;
+    margin: auto;
+}
+
+#container-start {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo do botão de iniciar o jogo */
+#play-btn {
+    display: flex;
+    padding: 15px;
+    background-color: #7246E5;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Container que armazena o conteúdo do jogo */
+#game-container {
+    display: block;
+}
+
+/* Estilo do contador */
+#counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e6e6e;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 20px;
+}
+
+#counter p {
+    font-size: 14px;
+}
+
+#counter span {
+    font-size: 16px;
+}
+
+#game {
+    background-color: #6e6e6e2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+
+#question {
+    padding: 7px;
+}
+
+input#iattempt {
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+#need-response {
+    margin: 10px;
+    background-color: #6e6e6e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button#send {
+    padding: 3px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    bottom: 0;
+    background-color: #e2dfdfa4;
+}
